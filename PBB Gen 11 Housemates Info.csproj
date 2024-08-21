@@ -12,6 +12,26 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/PBB Gen 11 Housemates Info/</UpdateUrl>
+    <ProductName>PBB Gen 11 Housemates Info</ProductName>
+    <PublisherName>DRPS Philippine Commercial Archives</PublisherName>
+    <SuiteName>PBB Gen 11 Housemates Info</SuiteName>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>2024.08.22.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -22,6 +42,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseWinFormsOutOfProcDesigner>True</UseWinFormsOutOfProcDesigner>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,9 +52,32 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseWinFormsOutOfProcDesigner>True</UseWinFormsOutOfProcDesigner>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>PBB_Gen_11_Housemates_Info.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PBBIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A082B23E053BE3303C607B438545B05954F767FF</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -70,6 +114,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="PBB Gen 11 Housemates Info_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -90,11 +136,13 @@
     <None Include="Resources\PHCAPBBGen11HM_Unselected.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="PBBIcon.ico" />
     <Content Include="Resources\HMPics\PHCAPBBGen11HM_BinsoyNamoca.png" />
     <Content Include="Resources\HMPics\PHCAPBBGen11HM_BrxRuiz.png" />
     <Content Include="Resources\HMPics\PHCAPBBGen11HM_Dongpat.png" />
     <Content Include="Resources\HMPics\PHCAPBBGen11HM_DylanYturralde.png" />
     <Content Include="Resources\HMPics\PHCAPBBGen11HM_FyangSmith.png" />
+    <Content Include="Resources\HMPics\PHCAPBBGen11HM_GwenMontano.png" />
     <Content Include="Resources\HMPics\PHCAPBBGen11HM_JanSilva.png" />
     <Content Include="Resources\HMPics\PHCAPBBGen11HM_JarrenGarcia.png" />
     <Content Include="Resources\HMPics\PHCAPBBGen11HM_JasDudleyScales.png" />
@@ -108,6 +156,18 @@
     <Content Include="Resources\HMPics\PHCAPBBGen11HM_NoimieSteikunas.png" />
     <Content Include="Resources\HMPics\PHCAPBBGen11HM_RainCelmar.png" />
     <Content Include="Resources\HMPics\PHCAPBBGen11HM_ThereseVillamor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

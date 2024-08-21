@@ -54,6 +54,13 @@ namespace PBB_Gen_11_Housemates_Info
                 HMStatusLBL.Text = "Nominated (4NN)";
                 HMPB.Image = new Bitmap("E:\\DRPSPHCALab\\PBBGen11HMInfo-CSharp\\PBB Gen 11 Housemates Info\\Resources\\HMPics\\PHCAPBBGen11HM_FyangSmith.png");
             }
+            else if (HMCB.Text == "Gwen Montano")
+            {
+                HMNameLBL.Text = "Gwen Montano";
+                HMMonikerLBL.Text = "The Brave Bromantiko of Cavite";
+                HMStatusLBL.Text = "Newly Entered";
+                HMPB.Image = new Bitmap("E:\\DRPSPHCALab\\PBBGen11HMInfo-CSharp\\PBB Gen 11 Housemates Info\\Resources\\HMPics\\PHCAPBBGen11HM_GwenMontano.png");
+            }
             else if (HMCB.Text == "Jan Silva")
             {
                 HMNameLBL.Text = "Jan Silva";

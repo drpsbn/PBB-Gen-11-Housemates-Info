@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("PBB Gen 11 Housemates Info")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("PBB Gen 11 Housemates Info")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("DRPS Philippine Commercial Archives")]
 [assembly: AssemblyProduct("PBB Gen 11 Housemates Info")]
-[assembly: AssemblyCopyright("Copyright ©  2024")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("© 2024 DRPS Philippine Commercial Archives")]
+[assembly: AssemblyTrademark("™ 2024 DRPS Philippine Commercial Archives")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2024.08.22.1")]
+[assembly: AssemblyFileVersion("2024.08.22.1")]

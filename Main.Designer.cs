@@ -67,6 +67,7 @@
             "Dingdong and Patrick",
             "Dylan Yturralde",
             "Fyang Smith",
+            "Gwen Montano",
             "Jan Silva",
             "Jarren Garcia",
             "Jas Dudley-Scales",
@@ -161,11 +162,11 @@
             this.AppVerLBL.BackColor = System.Drawing.Color.Transparent;
             this.AppVerLBL.Font = new System.Drawing.Font("Gilroy Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AppVerLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.AppVerLBL.Location = new System.Drawing.Point(527, 176);
+            this.AppVerLBL.Location = new System.Drawing.Point(526, 176);
             this.AppVerLBL.Name = "AppVerLBL";
-            this.AppVerLBL.Size = new System.Drawing.Size(147, 13);
+            this.AppVerLBL.Size = new System.Drawing.Size(149, 13);
             this.AppVerLBL.TabIndex = 8;
-            this.AppVerLBL.Text = "Ver. PHCAPBB11-20240821-1";
+            this.AppVerLBL.Text = "Ver. PHCAPBB11-20240822-1";
             // 
             // Main
             // 
