@@ -29,174 +29,164 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            this.MainLBL = new System.Windows.Forms.Label();
-            this.HMCB = new System.Windows.Forms.ComboBox();
-            this.HMSelLBL = new System.Windows.Forms.Label();
-            this.HMPB = new System.Windows.Forms.PictureBox();
-            this.HMNameLBL = new System.Windows.Forms.Label();
-            this.HMMonikerLBL = new System.Windows.Forms.Label();
-            this.DRPSPHCALogo = new System.Windows.Forms.PictureBox();
-            this.HMStatusLBL = new System.Windows.Forms.Label();
-            this.AppVerLBL = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.HMPB)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DRPSPHCALogo)).BeginInit();
-            this.SuspendLayout();
+            MainLBL = new System.Windows.Forms.Label();
+            HMCB = new System.Windows.Forms.ComboBox();
+            HMSelLBL = new System.Windows.Forms.Label();
+            HMPB = new System.Windows.Forms.PictureBox();
+            HMNameLBL = new System.Windows.Forms.Label();
+            HMMonikerLBL = new System.Windows.Forms.Label();
+            DRPSPHCALogo = new System.Windows.Forms.PictureBox();
+            HMStatusLBL = new System.Windows.Forms.Label();
+            AppVerLBL = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)HMPB).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DRPSPHCALogo).BeginInit();
+            SuspendLayout();
             // 
             // MainLBL
             // 
-            this.MainLBL.AutoSize = true;
-            this.MainLBL.BackColor = System.Drawing.Color.Transparent;
-            this.MainLBL.Font = new System.Drawing.Font("Pixellari", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MainLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.MainLBL.Location = new System.Drawing.Point(24, 18);
-            this.MainLBL.Name = "MainLBL";
-            this.MainLBL.Size = new System.Drawing.Size(494, 35);
-            this.MainLBL.TabIndex = 0;
-            this.MainLBL.Text = "PBB Gen 11 Housemates Info";
+            MainLBL.AutoSize = true;
+            MainLBL.BackColor = System.Drawing.Color.Transparent;
+            MainLBL.Font = new System.Drawing.Font("Pixellari", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            MainLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            MainLBL.Location = new System.Drawing.Point(28, 21);
+            MainLBL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            MainLBL.Name = "MainLBL";
+            MainLBL.Size = new System.Drawing.Size(494, 35);
+            MainLBL.TabIndex = 0;
+            MainLBL.Text = "PBB Gen 11 Housemates Info";
             // 
             // HMCB
             // 
-            this.HMCB.BackColor = System.Drawing.Color.Indigo;
-            this.HMCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.HMCB.Font = new System.Drawing.Font("Gilroy ExtraBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HMCB.ForeColor = System.Drawing.SystemColors.Window;
-            this.HMCB.FormattingEnabled = true;
-            this.HMCB.Items.AddRange(new object[] {
-            "Binsoy Namoca",
-            "Brx Ruiz",
-            "Dingdong and Patrick",
-            "Dylan Yturralde",
-            "Fyang Smith",
-            "Gwen Montano",
-            "Jan Silva",
-            "Jarren Garcia",
-            "Jas Dudley-Scales",
-            "JM Ibarra",
-            "Joli Alferez",
-            "JP Cabrera",
-            "Kai Montinola",
-            "Kanata Tapia",
-            "Kolette Madelo",
-            "Marc Nanninga",
-            "Noimie Steikunas",
-            "Rain Celmar",
-            "Therese Villamor"});
-            this.HMCB.Location = new System.Drawing.Point(238, 59);
-            this.HMCB.Name = "HMCB";
-            this.HMCB.Size = new System.Drawing.Size(434, 32);
-            this.HMCB.TabIndex = 1;
-            this.HMCB.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            HMCB.BackColor = System.Drawing.Color.Indigo;
+            HMCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            HMCB.Font = new System.Drawing.Font("Gilroy ExtraBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            HMCB.ForeColor = System.Drawing.SystemColors.Window;
+            HMCB.FormattingEnabled = true;
+            HMCB.Items.AddRange(new object[] { "Binsoy Namoca", "Brx Ruiz", "Dingdong and Patrick", "Dylan Yturralde", "Fyang Smith", "Gwen Montano", "Jan Silva", "Jarren Garcia", "Jas Dudley-Scales", "JM Ibarra", "Joli Alferez", "JP Cabrera", "Kai Montinola", "Kanata Tapia", "Kolette Madelo", "Marc Nanninga", "Noimie Steikunas", "Rain Celmar", "Therese Villamor" });
+            HMCB.Location = new System.Drawing.Point(247, 68);
+            HMCB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            HMCB.Name = "HMCB";
+            HMCB.Size = new System.Drawing.Size(537, 32);
+            HMCB.TabIndex = 1;
+            HMCB.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // HMSelLBL
             // 
-            this.HMSelLBL.AutoSize = true;
-            this.HMSelLBL.BackColor = System.Drawing.Color.Transparent;
-            this.HMSelLBL.Font = new System.Drawing.Font("Gilroy ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HMSelLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.HMSelLBL.Location = new System.Drawing.Point(30, 63);
-            this.HMSelLBL.Name = "HMSelLBL";
-            this.HMSelLBL.Size = new System.Drawing.Size(204, 26);
-            this.HMSelLBL.TabIndex = 2;
-            this.HMSelLBL.Text = "Select a housemate";
+            HMSelLBL.AutoSize = true;
+            HMSelLBL.BackColor = System.Drawing.Color.Transparent;
+            HMSelLBL.Font = new System.Drawing.Font("Gilroy ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            HMSelLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            HMSelLBL.Location = new System.Drawing.Point(35, 73);
+            HMSelLBL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            HMSelLBL.Name = "HMSelLBL";
+            HMSelLBL.Size = new System.Drawing.Size(204, 26);
+            HMSelLBL.TabIndex = 2;
+            HMSelLBL.Text = "Select a housemate";
             // 
             // HMPB
             // 
-            this.HMPB.BackColor = System.Drawing.Color.Transparent;
-            this.HMPB.Image = global::PBB_Gen_11_Housemates_Info.Properties.Resources.PHCAPBBGen11HM_Unselected;
-            this.HMPB.Location = new System.Drawing.Point(35, 102);
-            this.HMPB.Name = "HMPB";
-            this.HMPB.Size = new System.Drawing.Size(120, 120);
-            this.HMPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.HMPB.TabIndex = 3;
-            this.HMPB.TabStop = false;
+            HMPB.BackColor = System.Drawing.Color.Transparent;
+            HMPB.Image = Properties.Resources.PHCAPBBGen11HM_Unselected;
+            HMPB.Location = new System.Drawing.Point(41, 118);
+            HMPB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            HMPB.Name = "HMPB";
+            HMPB.Size = new System.Drawing.Size(140, 138);
+            HMPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            HMPB.TabIndex = 3;
+            HMPB.TabStop = false;
             // 
             // HMNameLBL
             // 
-            this.HMNameLBL.AutoSize = true;
-            this.HMNameLBL.BackColor = System.Drawing.Color.Transparent;
-            this.HMNameLBL.Font = new System.Drawing.Font("Gilroy ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HMNameLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.HMNameLBL.Location = new System.Drawing.Point(161, 102);
-            this.HMNameLBL.Name = "HMNameLBL";
-            this.HMNameLBL.Size = new System.Drawing.Size(271, 26);
-            this.HMNameLBL.TabIndex = 4;
-            this.HMNameLBL.Text = "Please select a housemate";
+            HMNameLBL.AutoSize = true;
+            HMNameLBL.BackColor = System.Drawing.Color.Transparent;
+            HMNameLBL.Font = new System.Drawing.Font("Gilroy ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            HMNameLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            HMNameLBL.Location = new System.Drawing.Point(188, 118);
+            HMNameLBL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            HMNameLBL.Name = "HMNameLBL";
+            HMNameLBL.Size = new System.Drawing.Size(271, 26);
+            HMNameLBL.TabIndex = 4;
+            HMNameLBL.Text = "Please select a housemate";
             // 
             // HMMonikerLBL
             // 
-            this.HMMonikerLBL.AutoSize = true;
-            this.HMMonikerLBL.BackColor = System.Drawing.Color.Transparent;
-            this.HMMonikerLBL.Font = new System.Drawing.Font("Gilroy Light", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HMMonikerLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.HMMonikerLBL.Location = new System.Drawing.Point(161, 128);
-            this.HMMonikerLBL.Name = "HMMonikerLBL";
-            this.HMMonikerLBL.Size = new System.Drawing.Size(0, 20);
-            this.HMMonikerLBL.TabIndex = 5;
+            HMMonikerLBL.AutoSize = true;
+            HMMonikerLBL.BackColor = System.Drawing.Color.Transparent;
+            HMMonikerLBL.Font = new System.Drawing.Font("Gilroy Light", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            HMMonikerLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            HMMonikerLBL.Location = new System.Drawing.Point(188, 148);
+            HMMonikerLBL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            HMMonikerLBL.Name = "HMMonikerLBL";
+            HMMonikerLBL.Size = new System.Drawing.Size(0, 20);
+            HMMonikerLBL.TabIndex = 5;
             // 
             // DRPSPHCALogo
             // 
-            this.DRPSPHCALogo.BackColor = System.Drawing.Color.Transparent;
-            this.DRPSPHCALogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.DRPSPHCALogo.Image = global::PBB_Gen_11_Housemates_Info.Properties.Resources.DRPSPHCABranding2023;
-            this.DRPSPHCALogo.Location = new System.Drawing.Point(552, 192);
-            this.DRPSPHCALogo.Name = "DRPSPHCALogo";
-            this.DRPSPHCALogo.Size = new System.Drawing.Size(120, 30);
-            this.DRPSPHCALogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.DRPSPHCALogo.TabIndex = 6;
-            this.DRPSPHCALogo.TabStop = false;
+            DRPSPHCALogo.BackColor = System.Drawing.Color.Transparent;
+            DRPSPHCALogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            DRPSPHCALogo.Image = Properties.Resources.DRPSPHCABranding2023;
+            DRPSPHCALogo.Location = new System.Drawing.Point(644, 222);
+            DRPSPHCALogo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            DRPSPHCALogo.Name = "DRPSPHCALogo";
+            DRPSPHCALogo.Size = new System.Drawing.Size(140, 35);
+            DRPSPHCALogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            DRPSPHCALogo.TabIndex = 6;
+            DRPSPHCALogo.TabStop = false;
             // 
             // HMStatusLBL
             // 
-            this.HMStatusLBL.AutoSize = true;
-            this.HMStatusLBL.BackColor = System.Drawing.Color.Transparent;
-            this.HMStatusLBL.Font = new System.Drawing.Font("Gilroy Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HMStatusLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.HMStatusLBL.Location = new System.Drawing.Point(162, 195);
-            this.HMStatusLBL.Name = "HMStatusLBL";
-            this.HMStatusLBL.Size = new System.Drawing.Size(0, 24);
-            this.HMStatusLBL.TabIndex = 7;
+            HMStatusLBL.AutoSize = true;
+            HMStatusLBL.BackColor = System.Drawing.Color.Transparent;
+            HMStatusLBL.Font = new System.Drawing.Font("Gilroy Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            HMStatusLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            HMStatusLBL.Location = new System.Drawing.Point(189, 225);
+            HMStatusLBL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            HMStatusLBL.Name = "HMStatusLBL";
+            HMStatusLBL.Size = new System.Drawing.Size(0, 24);
+            HMStatusLBL.TabIndex = 7;
             // 
             // AppVerLBL
             // 
-            this.AppVerLBL.AutoSize = true;
-            this.AppVerLBL.BackColor = System.Drawing.Color.Transparent;
-            this.AppVerLBL.Font = new System.Drawing.Font("Gilroy Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AppVerLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.AppVerLBL.Location = new System.Drawing.Point(526, 176);
-            this.AppVerLBL.Name = "AppVerLBL";
-            this.AppVerLBL.Size = new System.Drawing.Size(149, 13);
-            this.AppVerLBL.TabIndex = 8;
-            this.AppVerLBL.Text = "Ver. PHCAPBB11-20240822-1";
+            AppVerLBL.AutoSize = true;
+            AppVerLBL.BackColor = System.Drawing.Color.Transparent;
+            AppVerLBL.Font = new System.Drawing.Font("Gilroy Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            AppVerLBL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            AppVerLBL.Location = new System.Drawing.Point(635, 203);
+            AppVerLBL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            AppVerLBL.Name = "AppVerLBL";
+            AppVerLBL.Size = new System.Drawing.Size(149, 13);
+            AppVerLBL.TabIndex = 8;
+            AppVerLBL.Text = "Ver. PHCAPBB11-20240822-1";
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::PBB_Gen_11_Housemates_Info.Properties.Resources.DRPSPHCAPBBGen11HMGraphic_2024BKG;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(697, 239);
-            this.Controls.Add(this.AppVerLBL);
-            this.Controls.Add(this.HMStatusLBL);
-            this.Controls.Add(this.DRPSPHCALogo);
-            this.Controls.Add(this.HMMonikerLBL);
-            this.Controls.Add(this.HMNameLBL);
-            this.Controls.Add(this.HMPB);
-            this.Controls.Add(this.HMSelLBL);
-            this.Controls.Add(this.HMCB);
-            this.Controls.Add(this.MainLBL);
-            this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.Name = "Main";
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PBB Gen 11 Housemates Info";
-            ((System.ComponentModel.ISupportInitialize)(this.HMPB)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DRPSPHCALogo)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.DRPSPHCAPBBGen11HMGraphic_2024BKG;
+            BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            ClientSize = new System.Drawing.Size(813, 276);
+            Controls.Add(AppVerLBL);
+            Controls.Add(HMStatusLBL);
+            Controls.Add(DRPSPHCALogo);
+            Controls.Add(HMMonikerLBL);
+            Controls.Add(HMNameLBL);
+            Controls.Add(HMPB);
+            Controls.Add(HMSelLBL);
+            Controls.Add(HMCB);
+            Controls.Add(MainLBL);
+            DoubleBuffered = true;
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
+            Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            MaximizeBox = false;
+            Name = "Main";
+            SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            Text = "PBB Gen 11 Housemates Info";
+            ((System.ComponentModel.ISupportInitialize)HMPB).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DRPSPHCALogo).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
